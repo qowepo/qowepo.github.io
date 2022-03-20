@@ -1,0 +1,91 @@
+h1{
+    background-color:transparent;
+    font-family: "Poppins", sans-serif;
+    font-size: 57px;
+    line-height: 44px;
+    margin: 0;
+}
+
+.card-title{
+ padding-left: 20px;
+    margin-top: 70px ;
+    background: conic-gradient(
+        #ffffff 12%, rgb(204, 20, 134) 12%,
+        hsl(259, 18%, 61%) 33%, #e2ebd1 33%,
+        #b7c59c 33%, #c962b7 55%,
+        #ad8888 70%, #acadad 70%,
+        #ecedf0dc 87%, #cabab1 87%);
+    background-size: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: expand-rev 0.5s ease forwards;
+    cursor: pointer;    
+}
+
+.card-title:hover{
+    animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand{
+    0%{
+        background-size: 50%;
+        background-position: 0 0;
+    }
+    50%{
+        background-size: 55%;
+        background-position: 0 1em;
+    }
+    100%{
+        background-size: 525%;
+        background-position: -10em -4em;
+    }
+}
+
+@keyframes expand-rev{
+    0%{
+        background-size: 325%;
+        background-position: -10em -4em;
+    }
+    20%{
+        background-size: 55%;
+        background-position: 0 1em;
+    }
+    100%{
+        background-size: 50%;
+        background-position: 0 0;
+    }
+}
+
+
+h2 {
+    overflow: hidden;
+    text-shadow:
+     
+      0 0 #c962b7,
+      0 0 rgb(23, 23, 24);
+    color: transparent;
+    transition: all 1s;
+}
+  
+h2:hover {
+    text-shadow:
+     
+      20px 0 #c962b7,
+      0 0 rgb(23, 23, 24);
+}
+
+
+h6 {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 0 0 15px #999;
+    color: transparent;
+    transition: all .5s;
+}
+   
+h6:hover {
+    text-shadow: 0 0 0 #333;
+}

@@ -1,0 +1,75 @@
+
+
+
+  .containerk {
+    width: 320px;
+    height: 320px;
+   margin: 140px auto;
+   
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+    }
+  .containerk:before,
+  .containerk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+   
+    }
+    .containerk:before {
+      transform: rotateX(90deg);  
+      }
+    .containerk:after {
+      transform: rotatey(90deg);  
+      }
+  
+  .side {
+    border-radius: 4%;
+    float: right;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    display: block;
+   
+    opacity: .8;
+    }
+  
+  .back {
+    transform: translateZ(-160px);
+    background: url("../img/gey.jpg");
+    }
+    .front {
+        transform: translateZ(160px);
+        background: url("../img/gey2.jpg");
+    }
+  .top {
+    transform: translateY(-160px) rotateX(90deg);
+    background: url("../img/gey3.jpg");
+    }
+  .bottom {
+    transform: translateY(160px) rotateX(90deg);
+    background: url("../img/gey4.jpg");
+    }
+  .left {
+    transform: translateX(-160px) rotateY(90deg);
+    background: url("../img/gey5.jpg");
+    }
+  
+  .right {
+    transform: translateX(160px) rotateY(90deg);
+    background: url("../img/gey6.jpg");
+    }
+  
+    @keyframes rotate {
+        100% {
+            transform: rotatex(360deg) rotateY(360deg);
+        }
+    }
+  
+
+
+
+
+ 

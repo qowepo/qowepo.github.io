@@ -1,0 +1,36 @@
+.boll {
+    width: 40px;
+    height: 40px;
+    margin-top: 21px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow:
+      15px 0 0 rgb(0, 0, 0),
+      70px 0 0 rgb(0, 0, 0),
+      150px 0 0 rgb(0, 0, 0),
+      300px 0 0 rgb(0, 0, 0),
+      450px 0 0 rgb(0, 0, 0),
+      600px 0 0 rgb(0, 0, 0),
+      700px 0 0 rgb(0, 0, 0),
+      800px 0 0 rgb(0, 0, 0),
+      900px 0 0 rgb(0, 0, 0),
+      1150px 0 0 rgb(0, 0, 0);
+      animation: boxshadow 7.2s infinite;
+  }
+
+  @keyframes boxshadow {
+    50% {
+      box-shadow:
+        21em 0 0 rgb(196, 49, 117),
+        15em 0 0 rgb(194, 75, 154),
+        3em 0 0 rgb(196, 186, 192),
+        24em 0 0 rgb(182, 0, 127),
+        6em 0 0 rgb(192, 130, 178),
+        12em 0 0 rgb(197, 106, 152),
+        6em 0 0 rgb(197, 162, 194),
+        27em 0 0 darkmagenta,
+        9em 0 0 rgb(196, 119, 161),
+        18em 0 0 rgb(196, 46, 121);
+    }
+  }
+

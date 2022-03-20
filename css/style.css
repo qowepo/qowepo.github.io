@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  /*background: url(/img/pattern.png);*/
+  background-color: rgb(0, 0, 0);
+  font-family: Tahoma;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.demo {
+  background: url(../img/second.jpg) ;
+  padding-left: -10px;
+  margin-left: 0;
+  border-left: 0;
+  width: 100%;
+  background-color: #c962b7;
+  display: inline-block;
+  position: relative;
+  height: 330px;
+  margin: 0 0 0 0;
+  transition: all .5s;
+}
+
+.demo--luminosity {
+  background-color: rgb(204, 20, 134);
+  background-blend-mode:darken;
+}
+
+.demo--trans:hover {
+  background-blend-mode: normal;
+}
+.demo--before:hover:before {
+  opacity: 1;
+}
+
+
+a{  
+text-decoration: none;
+display: inline-block;
+}
+
+
+.header-git{
+    
+    margin-top: 27px;
+    margin-left: 7px;
+    height: 60px;
+    width: 60px;
+}
+.header-git:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+   }
+
